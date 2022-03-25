@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [{"name": "GroundStorable","properties": {"layout": "SingleCenter",
+      "collisionBox": {
+        "x1": 0.25,
+        "y1": 0,
+        "z1": 0.25,
+        "x2": 0.75,
+        "y2": 0.375,
+        "z2": 0.75 }}}],
+    "file": "lazytweaks:itemtypes/bag/basket.json",
+    "dependsOn":[{"modid":"bth"}]
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/groundstorable",
+    "value": ["*"],
+    "file": "lazytweaks:itemtypes/bag/basket.json",
+    "dependsOn":[{"modid":"bth"}]
+  }
+]

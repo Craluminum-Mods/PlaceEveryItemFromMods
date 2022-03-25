@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [{"name": "GroundStorable","properties": {"layout": "Quadrants"}}],
+    "file": "moremeat:itemtypes/food/mutton.json",
+    "dependsOn":[{"modid":"moremeat"}]
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/groundstorable",
+    "value": ["*"],
+    "file": "moremeat:itemtypes/food/mutton.json",
+    "dependsOn":[{"modid":"moremeat"}]
+  }
+]

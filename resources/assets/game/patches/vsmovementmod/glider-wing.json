@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [{"name": "GroundStorable","properties": {"layout": "SingleCenter"}}],
+    "file": "vsmovemod:itemtypes/gliderparts/glider-wing.json",
+    "dependsOn":[{"modid":"disabled"}]
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/groundstorable",
+    "value": ["*"],
+    "file": "vsmovemod:itemtypes/gliderparts/glider-wing.json",
+    "dependsOn":[{"modid":"disabled"}]
+  }
+]

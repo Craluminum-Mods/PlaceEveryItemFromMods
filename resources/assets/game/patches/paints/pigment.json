@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [{"name": "GroundStorable","properties": {"layout": "Quadrants"}}],
+    "file": "game:itemtypes/resource/pigment.json",
+    "dependsOn":[{"modid":"paints"}]
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/groundstorable",
+    "value": ["*"],
+    "file": "game:itemtypes/resource/pigment.json",
+    "dependsOn":[{"modid":"paints"}]
+  }
+]

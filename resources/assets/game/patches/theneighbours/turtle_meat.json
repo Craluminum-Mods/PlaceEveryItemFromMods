@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [{"name": "GroundStorable","properties": {"layout": "Quadrants"}}],
+    "file": "theneighbours:itemtypes/turtle_meat.json",
+    "dependsOn":[{"modid":"theneighbours"}]
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/groundstorable",
+    "value": ["*"],
+    "file": "theneighbours:itemtypes/turtle_meat.json",
+    "dependsOn":[{"modid":"theneighbours"}]
+  }
+]

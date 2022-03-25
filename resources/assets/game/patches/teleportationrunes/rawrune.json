@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [{"name": "GroundStorable","properties": {"layout": "Quadrants"}}],
+    "file": "tprunes:itemtypes/rawrune.json",
+    "dependsOn":[{"modid":"tprunes"}]
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/groundstorable",
+    "value": ["*"],
+    "file": "tprunes:itemtypes/rawrune.json",
+    "dependsOn":[{"modid":"tprunes"}]
+  }
+]

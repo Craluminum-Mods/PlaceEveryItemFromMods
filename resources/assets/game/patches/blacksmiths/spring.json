@@ -1,0 +1,28 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransform",
+    "value": {
+      "translation": {
+        "y": -0.262
+      },
+        "scale": 0.45
+    },
+    "file": "blacksmiths:itemtypes/metal/spring.json",
+    "dependsOn":[{"modid":"blacksmiths"}]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [{"name": "GroundStorable","properties": {"layout": "Quadrants"}}],
+    "file": "blacksmiths:itemtypes/metal/spring.json",
+    "dependsOn":[{"modid":"blacksmiths"}]
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/groundstorable",
+    "value": ["*"],
+    "file": "blacksmiths:itemtypes/metal/spring.json",
+    "dependsOn":[{"modid":"blacksmiths"}]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "type": "content",
+  "name": "Place Every Item From Mods",
+  "modid": "peifm",
+  "version": "1.0.2",
+  "description": "Place almost any item from any mod on the ground",
+  "authors": ["Craluminum2413"],
+  "dependencies": { "game": "1.16.0" }
+}
